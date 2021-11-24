@@ -290,7 +290,7 @@ public class Trabalho1 {
 		 
 	}
 		public static void cadastroVenda(String nome[], int numT, String nomeProd[], int numTP, Scanner leitura, int qtdProd[]) {
-			int cliente, produtos, qtd;
+			int nCliente, produtos, qtd;
 			char verif;
 			
 			System.out.println("Escolha o numero do cliente que comprou:");
@@ -298,7 +298,7 @@ public class Trabalho1 {
 				System.out.println((n+1) + "- " + nome[n]);
 					}
 			System.out.println("\n");
-			cliente = leitura.nextInt();
+			nCliente = leitura.nextInt();
 			do {
 				System.out.println("Escolha o numero do produto que o cliente comprou:");
 				for(int n = 0; n < numTP; n++) {
